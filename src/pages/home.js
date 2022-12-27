@@ -7,11 +7,11 @@ const home = function(){
                     <i class="fa-solid fa-circle-chevron-left" id="left" style="color: white;"></i>
                     <i class="fa-solid fa-circle-chevron-right" id="right" style="color: white;"></i>
                 </div>
-                <img id= "cake" src="./assets/cake1.jpg" alt="cake">
+                <img id= "cake" src="../assets/cake1.jpg" alt="cake">
             </div>
             <div class="main-menu">
                 <div class="title" id="main-about">ABOUT US</div>
-                <div class="photo"><img src="./assets/chef.jpg"></div>
+                <div class="photo"><img src="../assets/chef.jpg"></div>
                 <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus molestiae tenetur facilis, laudantium id ipsam laborum quod eos similique porro numquam vero quas praesentium amet deleniti neque repellat, placeat hic. Quasi laboriosam in fugit quis sed odio modi neque qui voluptate, dolorem hic sequi adipisci, deserunt vero id facere.</div>
             </div>
     `
@@ -22,7 +22,7 @@ carrousel();
  const carrousel = (function(){
      const clicked = document.querySelector("#btn-img");
      const imgChanged = document.querySelector("#cake")
-     const carrouselImages = ["./assets/cake1.jpg", "./assets/cake2.jpg", "./assets/cake3.jpg", "./assets/cake4.jpg", "./assets/cake5.jpg", "./assets/cake6.jpg"]
+     const carrouselImages = ["../assets/cake1.jpg", "../assets/cake2.jpg", "../assets/cake3.jpg", "../assets/cake4.jpg", "../assets/cake5.jpg", "../assets/cake6.jpg"]
      let countImg = 0
      clicked.addEventListener("click", (e) => {
          if(e.target.id === "left"){

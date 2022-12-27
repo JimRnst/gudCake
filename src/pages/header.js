@@ -8,7 +8,7 @@ const createHeader = function(){
                     <a href="#" id="pmenu">Menu</a>
                     <a href="#" id="about">About</a>
                 </div>
-                <div id="logo"><img src="/assets/gudcake.png"></div>
+                <div id="logo"><img src="../assets/gudcake.png"></div>
                 <div id="menu-right">
                     <a href="#" id="contact">Contact Us</a>
                     <div id="cart"><i class="fa-solid fa-cart-shopping"></i></div>
